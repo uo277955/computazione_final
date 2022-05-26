@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">Milestone</string>
+    <string name="title_activity_pantalla_principal">PantallaPrincipal</string>
+    <!--Nombres de variables -->
+    <string name="iniciarSesion">Accesso</string>
+    <string name="botonRegistro"> Non hai un account? Iscriviti </string>
+    <string name="welcome_message">Benvenuto</string>
+    <string name="myTickets">I Miei Biglietti\t\t\t</string>
+    <string name="logOut">Disconnetti\t\t\t</string>
+    <string name="buy">Acquistare</string>
+    <string name="error">Nome utente o password errati</string>
+    <string name="confirmar">Confermare</string>
+    <string name="message">Il biglietto sarà acquistato. Sei sicuro?</string>
+    <string name="yes">Si, acquistare</string>
+    <string name="cancel">Annulla</string>
+    <string name="insuficiente">Soldi insufficiente</string>
+    <string name="logIn">Log In</string>
+    <string name="name">Nome: </string>
+    <string name="mail">E-mail:\t </string>
+    <string name="contraseña">Password:\t </string>
+    <string name="repite_contraseña">ripeti la password:\t </string>
+    <string name="camposVacios">Tutti i campi devono essere compilati </string>
+    <string name="emailIncorrecto">E-mail non segue uno schema corretto</string>
+    <string name="contraseñasIncorrectas">Le passwords non corrispondono</string>
+    <string name="usuarioExiste">C è già un utente con quell e-mail</string>
+    <string name="mensajeDinero">Solo per la registrazione, ti regaliamo 20€ per i tuoi acquisti</string>
+</resources>

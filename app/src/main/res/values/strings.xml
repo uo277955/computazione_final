@@ -1,0 +1,26 @@
+<resources><string name="app_name">Milestone</string>
+    <string name="title_activity_pantalla_principal">PantallaPrincipal</string>
+    <!--Nombres de variables -->
+    <string name="iniciarSesion">Sign In</string>
+    <string name="botonRegistro"> You do not have an account? Sign up</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="myTickets">My Tickets\t\t\t</string>
+    <string name="logOut">logOut\t\t\t</string>
+    <string name="buy">Buy</string>
+    <string name="error">Wrong username or password</string>
+    <string name="confirmar">Confirm</string>
+    <string name="message">Ticket will be purchased. Are you sure?</string>
+    <string name="yes">Yes, buy</string>
+    <string name="cancel">Cancel</string>
+    <string name="insuficiente">Insufficient balance</string>
+    <string name="logIn">Log In</string>
+    <string name="name">Name: </string>
+    <string name="mail">E-mail:\t </string>
+    <string name="contraseña">Password:\t </string>
+    <string name="repite_contraseña">Repeat Password:\t </string>
+    <string name="camposVacios">All fields must be complete </string>
+    <string name="emailIncorrecto">The email does not follow a correct pattern</string>
+    <string name="contraseñasIncorrectas">Passwords do not match</string>
+    <string name="usuarioExiste">There is already a user with that email</string>
+    <string name="mensajeDinero">Just for registering, we give you €20 for your purchases</string>
+</resources>

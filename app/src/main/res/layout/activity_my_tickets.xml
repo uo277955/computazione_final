@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaPrincipal">
+
+  <SearchView
+      android:id="@+id/searcherMyTickets"
+      android:layout_width="317dp"
+      android:layout_height="51dp"
+      android:layout_marginStart="51dp"
+      android:layout_marginTop="28dp"
+      android:layout_marginEnd="43dp"
+      android:layout_marginBottom="18dp"
+      android:foregroundTint="#9F0E0E"
+      android:queryHint="Buscar"
+      android:visibility="visible"
+      app:layout_constraintBottom_toTopOf="@+id/scrollViewMyTickets"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textMyTickets">
+
+  </SearchView>
+
+  <TextView
+      android:id="@+id/textMyTickets"
+      android:layout_width="309dp"
+      android:layout_height="67dp"
+      android:layout_marginStart="51dp"
+      android:layout_marginTop="48dp"
+      android:layout_marginEnd="51dp"
+      android:layout_marginBottom="28dp"
+      android:text="@string/myTickets"
+      android:textSize="40dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/searcherMyTickets"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ScrollView
+      android:id="@+id/scrollViewMyTickets"
+      android:layout_width="408dp"
+      android:layout_height="433dp"
+      android:layout_marginStart="2dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginEnd="2dp"
+      android:layout_marginBottom="1dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView5"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/searcherMyTickets">
+
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+  </ScrollView>
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="84dp"
+      android:layout_height="70dp"
+      android:layout_marginStart="164dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="163dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/scrollViewMyTickets"
+      app:srcCompat="@drawable/logopit_1524078644872" />
+
+  <ImageButton
+      android:id="@+id/buttonBack"
+      android:layout_width="31dp"
+      android:layout_height="31dp"
+      android:layout_marginStart="18dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="363dp"
+      android:layout_marginBottom="165dp"
+      android:background="@color/white"
+      app:layout_constraintBottom_toTopOf="@+id/scrollViewMyTickets"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="?attr/actionModeCloseDrawable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
